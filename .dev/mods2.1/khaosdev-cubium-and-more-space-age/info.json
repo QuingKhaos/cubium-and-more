@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-###NAME###-space-age",
-  "title": "// DEV // ###TITLE### // Space Age //",
+  "name": "khaosdev-cubium-and-more-space-age",
+  "title": "// DEV // Cubium and More // Space Age //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -27,7 +27,7 @@
     "khaostransportgroup",
     "science-tab",
 
-    "###NAME###"
+    "cubium-and-more"
   ],
   "expansion_required": true
 }

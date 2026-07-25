@@ -1,10 +1,10 @@
 mod_info:
   title: |
-    ###TITLE###
+    Cubium and More
   summary: |
-    ###DESC###
+    Adds Cubium compatibility to several other mods and tweaks it a bit. Configurable!
   description_file: README.md
   attach_source_link: true
   license: default_gnugplv3
-  category: internal
+  category: content
   tags: []

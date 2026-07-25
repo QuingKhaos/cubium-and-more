@@ -1,17 +1,18 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESC###",
+  "name": "cubium-and-more",
+  "title": "Cubium and More",
+  "description": "Adds Cubium compatibility to several other mods and tweaks it a bit. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
+    "space-age >= 2.0.77",
 
-    "khaosbash",
-    "khaoslib"
+    "khaoslib >= 1.17.2"
   ],
+  "space_travel_required": true,
   "package": {
     "ignore": [
       "mod_info.yml",
