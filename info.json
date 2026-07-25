@@ -10,7 +10,9 @@
     "base >= 2.0.77",
     "space-age >= 2.0.77",
 
-    "khaoslib >= 1.17.2"
+    "khaoslib >= 1.17.2",
+
+    "cubium >= 1.0.28"
   ],
   "space_travel_required": true,
   "package": {

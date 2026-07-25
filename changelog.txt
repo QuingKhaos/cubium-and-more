@@ -1,3 +1,5 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: ????
+  Features:
+    - Reordered cubic science packs to match the order of their original counterparts.
