@@ -7,4 +7,5 @@ mod_info:
   attach_source_link: true
   license: default_gnugplv3
   category: content
-  tags: []
+  tags:
+    - manufacturing
