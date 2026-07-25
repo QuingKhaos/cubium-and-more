@@ -3,3 +3,9 @@
 # Cubium and More
 
 Adds Cubium compatibility to several other mods and tweaks it a bit. Configurable!
+
+## Compatible mods
+
+- [Science Group](https://mods.factorio.com/mod/science-group) - Reorganizes the cubic science packs into more subgroups for better organization.
+
+If you want to see another mod made compatible, please open a discussion thread on the mod portal, or an issue on GitHub, or join the Discord server and let me know.
