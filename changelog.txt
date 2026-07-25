@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: ????
+Date: 2026-07-25
   Features:
     - Reordered cubic science packs to match the order of their original counterparts.
     - Split cubic Nauvis science packs into a separate subgroup for better organization if Science Group is installed.
