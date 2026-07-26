@@ -1,5 +1,15 @@
 local khaoslib_setting = require("__khaoslib__.settings.setting")
 
+if mods["planet-muluna"] then
+  khaoslib_setting:load{
+    type = "bool-setting",
+    name = "cubium-and-more-compat-muluna",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[compat]-a[muluna]",
+  } :commit()
+end
+
 khaoslib_setting:load{
   type = "bool-setting",
   name = "cubium-and-more-cubic-space-science-pack",
