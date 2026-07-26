@@ -4,15 +4,17 @@
   "description": "Adds Cubium compatibility to several other mods and tweaks it a bit. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
     "space-age >= 2.0.77",
 
     "khaoslib >= 1.17.2",
+    "technology-or-redux >= 1.0.0",
 
     "cubium >= 1.0.28",
+    "? AsteroidBelt >= 1.2.10",
     "? science-tab >= 1.10.0"
   ],
   "space_travel_required": true,
