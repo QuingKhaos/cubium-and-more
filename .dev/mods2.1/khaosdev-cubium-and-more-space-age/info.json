@@ -27,7 +27,9 @@
     "khaostransportgroup",
     "+ science-tab",
 
-    "cubium-and-more"
+    "cubium-and-more",
+
+    "? AsteroidBelt"
   ],
   "expansion_required": true
 }
