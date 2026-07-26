@@ -1,5 +1,6 @@
 local khaoslib_list = require("__khaoslib__.common.list")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
+local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local khaoslib_tool = require("__khaoslib__.prototypes.tool")
 
 if settings.startup["cubium-and-more-cubic-space-science-pack"].value then
@@ -31,6 +32,19 @@ if settings.startup["cubium-and-more-cubic-space-science-pack"].value then
 
   khaoslib_recipe.copy("space-science-pack", "space-science-pack-cubic")
     :set(cubic_space_science_pack)
-    :add_unlock("cube-mastery-4")
     :commit()
+
+  local cube_mastery_4 = khaoslib_technology:load("cube-mastery-4")
+
+  if mods["planet-muluna"] and settings.startup["cubium-and-more-compat-muluna"].value then
+    khaoslib_recipe.copy("space-science-pack-muluna", "space-science-pack-muluna-cubic")
+      :set(cubic_space_science_pack)
+      :commit()
+
+    cube_mastery_4:add_unlock_recipe("space-science-pack-muluna-cubic")
+  else
+    cube_mastery_4:add_unlock_recipe("space-science-pack-cubic")
+  end
+
+  cube_mastery_4:commit()
 end

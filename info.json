@@ -15,6 +15,7 @@
 
     "cubium >= 1.0.28",
     "? AsteroidBelt >= 1.2.10",
+    "? planet-muluna >= 2.2.102",
     "? science-tab >= 1.10.0"
   ],
   "space_travel_required": true,

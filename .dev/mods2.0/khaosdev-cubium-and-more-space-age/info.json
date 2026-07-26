@@ -28,7 +28,8 @@
 
     "cubium-and-more",
 
-    "? AsteroidBelt"
+    "? AsteroidBelt",
+    "planet-muluna"
   ],
   "space_travel_required": true
 }
