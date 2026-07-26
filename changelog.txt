@@ -4,6 +4,7 @@ Date: ????
   Features:
     - Add a cubic space science pack recipe.
     - Add a cubic exploration science pack recipe for Muluna.
+    - Add hope greenhouse tree growth if Muluna is installed.
   Compatibility:
     - Add support for Muluna's modifications to the space science pack.
 ---------------------------------------------------------------------------------------------------
