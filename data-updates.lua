@@ -1,3 +1,5 @@
+require("__cubium-and-more__.prototypes.compat.muluna-updates")
+
 require("__cubium-and-more__.prototypes.tweaks.cubic-space-science-pack-updates")
 require("__cubium-and-more__.prototypes.tweaks.planet-discovery-prerequisites-updates")
 require("__cubium-and-more__.prototypes.tweaks.science-pack-reorganization-updates")
