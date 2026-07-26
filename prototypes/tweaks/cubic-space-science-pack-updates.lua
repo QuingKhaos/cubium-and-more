@@ -13,14 +13,14 @@ if settings.startup["cubium-and-more-cubic-space-science-pack"].value then
 
   local cubic_space_science_pack = {
     category = "advanced-crafting",
-    subgroup = settings.startup["cubium-and-more-cubic-space-science-pack"].value and (mods["science-tab"] and "cubic-basic-science-pack" or "cubic-science") or "cubic",
+    subgroup = settings.startup["cubium-and-more-science-pack-reorganization"].value and (mods["science-tab"] and "cubic-basic-science-pack" or "cubic-science") or "cubic",
     icons = util.combine_icons({{icon = "__cubium__/graphics/icons/matter-cube.png", scale = 0.9}}, khaoslib_tool.get_icons("space-science-pack"), {scale = 1.2}, 64),
     localised_name = {"item-name.space-science-pack"},
     enabled = false,
     allow_productivity = true,
     auto_recycle = false,
     result_is_always_fresh = true,
-    order = settings.startup["cubium-and-more-cubic-space-science-pack"].value and khaoslib_recipe.get("space-science-pack").order or "aa",
+    order = settings.startup["cubium-and-more-science-pack-reorganization"].value and khaoslib_recipe.get("space-science-pack").order or "aa",
     ingredients = cubic_ingredients,
     results = {
       -- Merges with the original space science pack results and overwrites the amount of space science packs to 10, adds an energized microcube, while adding the dormant microcube as additional result.
