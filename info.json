@@ -4,12 +4,13 @@
   "description": "Adds Cubium compatibility to several other mods and tweaks it a bit. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
     "space-age >= 2.0.77",
 
+    "flib >= 0.16.5",
     "khaoslib >= 1.17.2",
     "technology-or-redux >= 1.0.0",
 
